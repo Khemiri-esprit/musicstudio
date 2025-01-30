@@ -15,7 +15,7 @@ public class DatabaseConnection {
             Properties props = new Properties();
             props.load(getClass().getClassLoader().getResourceAsStream("database.properties"));
             
-            // Print connection details (remove in production)
+            
             System.out.println("Attempting to connect with:");
             System.out.println("URL: " + props.getProperty("db.url"));
             System.out.println("User: " + props.getProperty("db.user"));

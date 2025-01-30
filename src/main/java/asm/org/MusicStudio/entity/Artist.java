@@ -8,10 +8,9 @@ public class Artist {
     private String name;
     private List<Room> rooms = new ArrayList<>();
 
-    // Default constructor
     public Artist() {}
 
-    // Parameterized constructor
+    
     public Artist(Integer artistId, String name) {
         this.artistId = artistId;
         this.name = name;
@@ -27,7 +26,6 @@ public class Artist {
     public List<Room> getRooms() { return rooms; }
     public void setRooms(List<Room> rooms) { this.rooms = rooms; }
 
-    // Helper methods
     public void addRoom(Room room) {
         rooms.add(room);
     }

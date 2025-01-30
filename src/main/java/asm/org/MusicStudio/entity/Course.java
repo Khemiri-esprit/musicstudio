@@ -10,10 +10,8 @@ public class Course {
     private Teacher teacher;
     private List<Enrollment> enrollments = new ArrayList<>();
 
-    // Default constructor
     public Course() {}
 
-    // Parameterized constructor
     public Course(Integer courseId, String name, Schedule schedule, Teacher teacher) {
         this.courseId = courseId;
         this.name = name;
@@ -37,7 +35,6 @@ public class Course {
     public List<Enrollment> getEnrollments() { return enrollments; }
     public void setEnrollments(List<Enrollment> enrollments) { this.enrollments = enrollments; }
 
-    // Helper methods
     public void addEnrollment(Enrollment enrollment) {
         enrollments.add(enrollment);
     }

@@ -1,4 +1,4 @@
-package asm.org.MusicStudio;
+package asm.org.MusicStudio.services;
 
 import asm.org.MusicStudio.db.DatabaseConnection;
 import java.sql.Connection;
